@@ -1,0 +1,23 @@
+# Node
+node_modules/
+
+# Logs
+npm-debug.log*
+
+# Env
+.env
+
+# macOS
+.DS_Store
+
+# Build
+build/
+dist/
+
+# Misc
+.vscode/
+.idea/
+coverage/
+
+# Lockfiles (keep package-lock.json committed for reproducible builds)
+# package-lock.json
