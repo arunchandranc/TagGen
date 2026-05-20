@@ -1,0 +1,39 @@
+{
+  "name": "taggen",
+  "version": "1.0.0",
+  "description": "A web-based application for testing input against regular expressions and generating tags.",
+  "main": "src/index.tsx",
+  "scripts": {
+    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "react",
+    "regex",
+    "tags",
+    "validation"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "cross-env": "^10.1.0",
+    "typescript": "^4.9.5"
+  },
+  "homepage": "http://yourhomepage.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/taggen.git"
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}

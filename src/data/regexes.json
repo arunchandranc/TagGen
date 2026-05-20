@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Mens Clothing",
+    "pattern": "(?i)(?=.*\\b(men|men's|mens|male|gentlemen|gents)\\b)(?=.*\\b(shirt|t-?shirt|tee|polo|hoodie|jacket|blazer|sweater|jeans|trousers|pants|shorts|joggers|kurta|sherwani|trackpants|tracksuit|innerwear|briefs|boxers|vest|suit)\\b).*",
+    "tags": ["Product Type_Men's clothing"]
+  },
+  {
+    "name": "Womens Clothing",
+    "pattern": "(?i)^(?=.*\\b(woman|women|women's|womens|ladies|female)\\b)(?=.*\\b(dress|gown|maxi|midi|mini|top|blouse|shirt|t-?shirt|tee|kurti|saree|lehenga|jeans|leggings|jeggings|pants|trousers|skirt|jacket|hoodie|cardigan|nighty|nightdress|sleepwear|bra|panty|lingerie|sports\\s?bra|activewear|tracksuit)\\b).*",
+    "tags": ["Product Type_Women's Clothing"]
+  },
+  {
+    "name": "Bags",
+    "pattern": "(?i)^(?=.*\\b(bag|backpack|rucksack|satchel|tote|duffel|sling\\s?bag|crossbody\\s?bag|messenger\\s?bag|laptop\\s?bag|school\\s?bag|makeup\\s?bag|cosmetic\\s?bag|travel\\s?bag)\\b)(?!.*\\b(wallet|purse|card\\s?holder|cardcase|card\\s?wallet|kitchen\\s?storage|storage\\s?box|storage\\s?container|home\\s?storage|organizer|organiser|lunch\\s?box)\\b).*",
+    "tags": ["Product Type_Bags", "fashion_bags"]
+  },
+  {
+    "name": "School Bags",
+    "pattern": "(?i)^(?=.*\\b(school\\s?bag|school\\s?backpack|student\\s?bag|college\\s?bag)\\b)(?!.*\\b(wallet|purse|card\\s?holder|storage|organizer|lunch\\s?box)\\b).*",
+    "tags": ["Product Type_Bags", "fashion_bags"]
+  },
+  {
+    "name": "Makeup Bags",
+    "pattern": "(?i)^(?=.*\\b(makeup\\s?bag|cosmetic\\s?bag|beauty\\s?bag|toiletry\\s?bag|vanity\\s?bag)\\b)(?!.*\\b(wallet|purse|card\\s?holder|storage\\s?box|kitchen\\s?storage)\\b).*",
+    "tags": ["Product Type_Bags", "Product Type_Makeup Bags", "fashion_bags"]
+  },
+  {
+    "name": "Laptop Bags",
+    "pattern": "(?i)^(?=.*\\b(laptop\\s?bag|laptop\\s?backpack|notebook\\s?bag|messenger\\s?bag|office\\s?bag)\\b)(?!.*\\b(wallet|purse|card\\s?holder|storage|organizer)\\b).*",
+    "tags": ["Product Type_Bags", "Product Type_Laptop Bags"]
+  }
+]
