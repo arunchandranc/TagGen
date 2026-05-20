@@ -21,7 +21,7 @@
   },
   {
     "name": "Makeup Bags",
-    "pattern": "(?i)^(?=.*\\b(makeup\\s?bag|cosmetic\\s?bag|beauty\\s?bag|toiletry\\s?bag|vanity\\s?bag)\\b)(?!.*\\b(wallet|purse|card\\s?holder|storage\\s?box|kitchen\\s?storage)\\b).*",
+    "pattern": "(?i)^(?=.*\\b(makeup\\s?bag|makeup\\s?bags|cosmetic\\s?bag|cosmetic\\s?bags|beauty\\s?bag|beauty\\s?bags|toiletry\\s?bag|toiletry\\s?bags|vanity\\s?bag|vanity\\s?bags)\\b)(?!.*\\b(wallet|purse|card\\s?holder|storage\\s?box|kitchen\\s?storage)\\b).*",
     "tags": ["Product Type_Bags", "Product Type_Makeup Bags", "fashion_bags"]
   },
   {
