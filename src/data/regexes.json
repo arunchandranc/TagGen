@@ -58,10 +58,5 @@
     "name": "Mens Watches",
     "pattern": "(?i)^(?=.*\\b(men|men's|mens|male|gents|gentlemen)\\b)(?=.*\\b(watch|wrist\\s?watch|analog\\s?watch|digital\\s?watch|chronograph)\\b)(?!.*\\b(watch\\s?strap|smart\\s?band|wall\\s?clock|belt|wallet|chain)\\b).*",
     "tags": ["Product Type_Men's Watches"]
-  },
-  {
-    "name": "Mens Ties & Formal Accessories",
-    "pattern": "(?i)^(?=.*\\b(men|men's|mens|male|gents|gentlemen)\\b)(?=.*\\b(tie|necktie|bow\\s?tie|formal\\s?tie|cufflinks?|tie\\s?clip|pocket\\s?square|lapel\\s?pin|suspenders?|formal\\s?accessor(y|ies))\\b)(?!.*\\b(hair\\s?tie|cable\\s?tie|zip\\s?tie|wallet|belt|watch|chain|bag|shoe|cap|helmet)\\b).*",
-    "tags": ["Product Type_Men's Formal Accessories"]
   }
 ]
