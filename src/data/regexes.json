@@ -1,32 +1,67 @@
 [
   {
     "name": "Mens Clothing",
-    "pattern": "(?i)(?=.*\\b(men|men's|mens|male|gentlemen|gents)\\b)(?=.*\\b(shirt|t-?shirt|tee|polo|hoodie|jacket|blazer|sweater|jeans|trousers|pants|shorts|joggers|kurta|sherwani|trackpants|tracksuit|innerwear|briefs|boxers|vest|suit)\\b).*",
+    "pattern": "(?i)(?=.*\\\\b(men|men's|mens|male|gentlemen|gents)\\\\b)(?=.*\\\\b(shirt|t-?shirt|tee|polo|hoodie|jacket|blazer|sweater|jeans|trousers|pants|shorts|joggers|kurta|sherwani|trackpants|tracksuit|innerwear|briefs|boxers|vest|suit)\\\\b).*",
     "tags": ["Product Type_Men's clothing"]
   },
   {
     "name": "Womens Clothing",
-    "pattern": "(?i)^(?=.*\\b(woman|women|women's|womens|ladies|female)\\b)(?=.*\\b(dress|gown|maxi|midi|mini|top|blouse|shirt|t-?shirt|tee|kurti|saree|lehenga|jeans|leggings|jeggings|pants|trousers|skirt|jacket|hoodie|cardigan|nighty|nightdress|sleepwear|bra|panty|lingerie|sports\\s?bra|activewear|tracksuit)\\b).*",
+    "pattern": "(?i)^(?=.*\\\\b(woman|women|women's|womens|ladies|female)\\\\b)(?=.*\\\\b(dress|gown|maxi|midi|mini|top|blouse|shirt|t-?shirt|tee|kurti|saree|lehenga|jeans|leggings|jeggings|pants|trousers|skirt|jacket|hoodie|cardigan|nighty|nightdress|sleepwear|bra|panty|lingerie|sports\\\\s?bra|activewear|tracksuit)\\\\b).*",
     "tags": ["Product Type_Women's Clothing"]
   },
   {
     "name": "Bags",
-    "pattern": "(?i)^(?=.*\\b(bag|backpack|rucksack|satchel|tote|duffel|sling\\s?bag|crossbody\\s?bag|messenger\\s?bag|laptop\\s?bag|school\\s?bag|makeup\\s?bag|cosmetic\\s?bag|travel\\s?bag)\\b)(?!.*\\b(wallet|purse|card\\s?holder|cardcase|card\\s?wallet|kitchen\\s?storage|storage\\s?box|storage\\s?container|home\\s?storage|organizer|organiser|lunch\\s?box)\\b).*",
+    "pattern": "(?i)^(?=.*\\\\b(bag|backpack|rucksack|satchel|tote|duffel|sling\\\\s?bag|crossbody\\\\s?bag|messenger\\\\s?bag|laptop\\\\s?bag|school\\\\s?bag|makeup\\\\s?bag|cosmetic\\\\s?bag|travel\\\\s?bag)\\\\b)(?!.*\\\\b(wallet|purse|card\\\\s?holder|cardcase|card\\\\s?wallet|kitchen\\\\s?storage|storage\\\\s?box|storage\\\\s?container|home\\\\s?storage|organizer|organiser|lunch\\\\s?box)\\\\b).*",
     "tags": ["Product Type_Bags", "fashion_bags"]
   },
   {
     "name": "School Bags",
-    "pattern": "(?i)^(?=.*\\b(school\\s?bag|school\\s?backpack|student\\s?bag|college\\s?bag)\\b)(?!.*\\b(wallet|purse|card\\s?holder|storage|organizer|lunch\\s?box)\\b).*",
+    "pattern": "(?i)^(?=.*\\\\b(school\\\\s?bag|school\\\\s?backpack|student\\\\s?bag|college\\\\s?bag)\\\\b)(?!.*\\\\b(wallet|purse|card\\\\s?holder|storage|organizer|lunch\\\\s?box)\\\\b).*",
     "tags": ["Product Type_Bags", "fashion_bags"]
   },
   {
     "name": "Makeup Bags",
-    "pattern": "(?i)^(?=.*\\b(makeup\\s?bag|makeup\\s?bags|cosmetic\\s?bag|cosmetic\\s?bags|beauty\\s?bag|beauty\\s?bags|toiletry\\s?bag|toiletry\\s?bags|vanity\\s?bag|vanity\\s?bags)\\b)(?!.*\\b(wallet|purse|card\\s?holder|storage\\s?box|kitchen\\s?storage)\\b).*",
+    "pattern": "(?i)^(?=.*\\\\b(makeup\\\\s?bag|makeup\\\\s?bags|cosmetic\\\\s?bag|cosmetic\\\\s?bags|beauty\\\\s?bag|beauty\\\\s?bags|toiletry\\\\s?bag|toiletry\\\\s?bags|vanity\\\\s?bag|vanity\\\\s?bags)\\\\b)(?!.*\\\\b(wallet|purse|card\\\\s?holder|storage\\\\s?box|kitchen\\\\s?storage)\\\\b).*",
     "tags": ["Product Type_Bags", "Product Type_Makeup Bags", "fashion_bags"]
   },
   {
     "name": "Laptop Bags",
-    "pattern": "(?i)^(?=.*\\b(laptop\\s?bag|laptop\\s?backpack|notebook\\s?bag|messenger\\s?bag|office\\s?bag)\\b)(?!.*\\b(wallet|purse|card\\s?holder|storage|organizer)\\b).*",
+    "pattern": "(?i)^(?=.*\\\\b(laptop\\\\s?bag|laptop\\\\s?backpack|notebook\\\\s?bag|messenger\\\\s?bag|office\\\\s?bag)\\\\b)(?!.*\\\\b(wallet|purse|card\\\\s?holder|storage|organizer)\\\\b).*",
     "tags": ["Product Type_Bags", "Product Type_Laptop Bags"]
+  },
+  {
+    "name": "Mens Belts",
+    "pattern": "(?i)^(?=.*\\\\b(men|men's|mens|male|gents|gentlemen)\\\\b)(?=.*\\\\b(belt|leather\\\\s?belt|formal\\\\s?belt|casual\\\\s?belt|reversible\\\\s?belt)\\\\b)(?!.*\\\\b(wallet|watch|chain|necklace|pendant|shoe|bag|strap|timing\\\\s?belt|conveyor\\\\s?belt)\\\\b).*",
+    "tags": ["Product Type_Men's Belts"]
+  },
+  {
+    "name": "Mens Pendants",
+    "pattern": "(?i)^(?=.*\\\\b(men|men's|mens|male|gents|gentlemen)\\\\b)(?=.*\\\\b(pendant|locket)\\\\b)(?!.*\\\\b(necklace|chain|bracelet|watch|wallet|earring|belt|bag)\\\\b).*",
+    "tags": ["Product Type_Men's Pendants"]
+  },
+  {
+    "name": "Mens Necklaces",
+    "pattern": "(?i)^(?=.*\\\\b(men|men's|mens|male|gents|gentlemen)\\\\b)(?=.*\\\\b(necklace|neck\\\\s?chain)\\\\b)(?!.*\\\\b(wallet|watch|belt|bag|bracelet|anklet|earring)\\\\b).*",
+    "tags": ["Product Type_Men's Necklaces"]
+  },
+  {
+    "name": "Mens Chains",
+    "pattern": "(?i)^(?=.*\\\\b(men|men's|mens|male|gents|gentlemen)\\\\b)(?=.*\\\\b(chain|gold\\\\s?chain|silver\\\\s?chain|metal\\\\s?chain)\\\\b)(?!.*\\\\b(chainsaw|key\\\\s?chain|wallet\\\\s?chain|bike\\\\s?chain|necklace|bracelet|watch|belt)\\\\b).*",
+    "tags": ["Product Type_Men's Chains"]
+  },
+  {
+    "name": "Mens Wallets",
+    "pattern": "(?i)^(?=.*\\\\b(men|men's|mens|male|gents|gentlemen)\\\\b)(?=.*\\\\b(wallet|card\\\\s?holder|card\\\\s?wallet|bifold\\\\s?wallet|trifold\\\\s?wallet)\\\\b)(?!.*\\\\b(handbag|purse|backpack|bag|watch|belt|chain)\\\\b).*",
+    "tags": ["Product Type_Men's Wallets"]
+  },
+  {
+    "name": "Mens Watches",
+    "pattern": "(?i)^(?=.*\\\\b(men|men's|mens|male|gents|gentlemen)\\\\b)(?=.*\\\\b(watch|wrist\\\\s?watch|analog\\\\s?watch|digital\\\\s?watch|chronograph)\\\\b)(?!.*\\\\b(watch\\\\s?strap|smart\\\\s?band|wall\\\\s?clock|belt|wallet|chain)\\\\b).*",
+    "tags": ["Product Type_Men's Watches"]
+  },
+  {
+    "name": "Mens Ties & Formal Accessories",
+    "pattern": "(?i)^(?=.*\\\\b(men|men's|mens|male|gents|gentlemen)\\\\b)(?=.*\\\\b(tie|necktie|bow\\\\s?tie|formal\\\\s?tie|cufflinks?|tie\\\\s?clip|pocket\\\\s?square|lapel\\\\s?pin|suspenders?|formal\\\\s?accessor(y|ies))\\\\b)(?!.*\\\\b(hair\\\\s?tie|cable\\\\s?tie|zip\\\\s?tie|wallet|belt|watch|chain|bag|shoe|cap|helmet)\\\\b).*",
+    "tags": ["Product Type_Men's Formal Accessories"]
   }
 ]
