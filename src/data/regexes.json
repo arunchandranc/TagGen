@@ -28,5 +28,10 @@
     "name": "Laptop Bags",
     "pattern": "(?i)^(?=.*\\b(laptop\\s?bag|laptop\\s?backpack|notebook\\s?bag|messenger\\s?bag|office\\s?bag)\\b)(?!.*\\b(wallet|purse|card\\s?holder|storage|organizer)\\b).*",
     "tags": ["Product Type_Bags", "Product Type_Laptop Bags"]
+  },
+  {
+    "name": "Mens Belts",
+    "pattern": "(?i)^(?=.*\\b(men|men's|mens|male|gents|gentlemen)\\b)(?=.*\\b(belt|belts|leather\\s?belt|leather\\s?belts|formal\\s?belt|casual\\s?belt|jeans\\s?belt|automatic\\s?buckle\\s?belt)\\b)(?!.*\\b(wallet|watch|chain|necklace|pendant|shoe|bag|strap|timing\\s?belt|conveyor\\s?belt|seat\\s?belt)\\b).*",
+    "tags": ["Product Type_Men's Belts"]
   }
 ]
