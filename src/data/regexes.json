@@ -31,9 +31,9 @@
   },
   {
     "name": "Mens Belts",
-    "pattern": "(?i)^(?=.*\\\\b(men|men's|mens|male|gents|gentlemen)\\\\b)(?=.*\\\\b(belt|leather\\\\s?belt|formal\\\\s?belt|casual\\\\s?belt|reversible\\\\s?belt)\\\\b)(?!.*\\\\b(wallet|watch|chain|necklace|pendant|shoe|bag|strap|timing\\\\s?belt|conveyor\\\\s?belt)\\\\b).*",
+    "pattern": "(?i)^(?=.*\\\\b(men|men's|mens|male|gents|gentlemen)\\\\b)(?=.*\\\\b(belts?|leather\\\\s?belts?|formal\\\\s?belts?|casual\\\\s?belts?|jeans\\\\s?belts?|automatic\\\\s?buckle\\\\s?belts?)\\\\b)(?!.*\\\\b(wallet|watch|chain|necklace|pendant|shoe|bag|strap|timing\\\\s?belt|conveyor\\\\s?belt|seat\\\\s?belt)\\\\b).*",
     "tags": ["Product Type_Men's Belts"]
-  },
+},
   {
     "name": "Mens Pendants",
     "pattern": "(?i)^(?=.*\\\\b(men|men's|mens|male|gents|gentlemen)\\\\b)(?=.*\\\\b(pendant|locket)\\\\b)(?!.*\\\\b(necklace|chain|bracelet|watch|wallet|earring|belt|bag)\\\\b).*",
